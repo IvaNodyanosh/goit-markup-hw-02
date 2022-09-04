@@ -1,0 +1,99 @@
+:root {
+    --accent-color: #2196F3;
+    --main-color: #212121;
+    --black-fon-text-color: #FFFFFF;
+    --text-p-color: #757575;
+    --secondary-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+    background-color: white;
+    font-family: Roboto, sans-serif;
+    color: var(--main-color);
+}
+
+/* CТИЛІЗАЦІЯ HEADER */
+/* стилізація логотипа */
+.logo {
+    color: currentColor;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logo-accent {
+    color: var(--accent-color)
+}
+
+.logo-footer {
+    color: var(--black-fon-text-color);
+    background-color: #2F303A;
+}
+
+/* стилізація навігації */
+.navigation {
+    list-style: none;
+}
+
+.navigation a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: currentColor;
+    text-decoration: none;
+}
+
+
+.navigation a:focus {
+    color: var(--accent-color);
+}
+
+.navigation a:hover {
+    color: var(--accent-color);
+    cursor: pointer;
+}
+
+/* стилізація зв'язку */
+.connection {
+    list-style: none;
+}
+
+.connection a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--text-p-color);
+    text-decoration: none;
+}
+
+.connection a:focus {
+    color: var(--accent-color);
+}
+
+.connection a:hover {
+    color: var(--accent-color);
+    cursor: pointer;
+}
+
+/* СТИЛЫЗАЦІЯ FOOTER */
+.address {
+    list-style: none;
+}
+
+.address a {
+    text-decoration: none;
+    font-style: normal;
+    color: var(--secondary-color);
+    background-color: #2F303A;
+}
+
+.address .address-offline {
+    color: var(--black-fon-text-color);
+}
+
+/*  */
