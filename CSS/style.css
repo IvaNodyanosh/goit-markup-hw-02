@@ -113,7 +113,7 @@ body {
     color: var(--secondary-color);
 }
 
-.footer {
+footer {
     background-color: var(--background);
 }
 
