@@ -12,7 +12,15 @@ body {
     color: var(--main-color);
 }
 
+
+
+
+
+
 /* CТИЛІЗАЦІЯ HEADER */
+
+
+
 /* стилізація логотипа */
 .logo {
     color: currentColor;
@@ -32,6 +40,10 @@ body {
     color: var(--black-fon-text-color);
     background-color: #2F303A;
 }
+
+
+
+
 
 /* стилізація навігації */
 .navigation {
@@ -57,6 +69,11 @@ body {
     cursor: pointer;
 }
 
+
+
+
+
+
 /* стилізація зв'язку */
 .connection {
     list-style: none;
@@ -80,6 +97,10 @@ body {
     cursor: pointer;
 }
 
+
+
+
+
 /* СТИЛЫЗАЦІЯ FOOTER */
 .address {
     list-style: none;
@@ -92,8 +113,111 @@ body {
     background-color: #2F303A;
 }
 
-.address .address-offline {
+.address a[href="https://cutt.ly/mX3golp"] {
     color: var(--black-fon-text-color);
 }
 
-/*  */
+
+
+
+/* СТИЛІЗАЦІЯ MAIN ДЛЯ СТОРІНКИ "СТУДІЯ" */
+
+
+/* стилізція секції герой */
+.text-hero {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--black-fon-text-color);
+    background-color: #2F303A;
+}
+
+.hero-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    text-align: center;
+    color: var(--black-fon-text-color);
+    background-color: #2196F3;
+    cursor: pointer;
+}
+
+
+
+
+
+/* стилізація секції наші переваги */
+.section-our-advantages {
+    list-style: none;
+}
+
+.section-our-advantages h3 {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
+
+.section-our-advantages p {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--text-p-color);
+}
+
+
+
+
+
+/* стилізація секції  */
+.our-work h2 {
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.our-work ul {
+    list-style: none;
+}
+
+
+
+
+
+/* стидізація секції наша команда */
+.our-team ul {
+    list-style: none;
+}
+
+.our-team h2 {
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.our-team h3 {
+    ont-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.our-team p {
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-p-color);
+}
+
+
+
+
+
+
+/*СТИЛІЗАЦІЯ MAIN ДЛЯ СТОРЫНКИ ПОРТФОЛІО  */
