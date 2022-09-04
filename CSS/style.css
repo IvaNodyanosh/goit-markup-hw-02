@@ -4,10 +4,11 @@
     --black-fon-text-color: #FFFFFF;
     --text-p-color: #757575;
     --secondary-color: rgba(255, 255, 255, 0.6);
+    --background: #2F303A;
 }
 
 body {
-    background-color: white;
+    background-color: var(--black-fon-text-color);
     font-family: Roboto, sans-serif;
     color: var(--main-color);
 }
@@ -38,7 +39,6 @@ body {
 
 .logo-footer {
     color: var(--black-fon-text-color);
-    background-color: #2F303A;
 }
 
 
@@ -66,13 +66,15 @@ body {
 
 .navigation a:hover {
     color: var(--accent-color);
-    cursor: pointer;
 }
 
+.navigation .navigation-portfolio {
+    color: var(--accent-color);
+}
 
-
-
-
+.navigation .navigation-studio {
+    color: var(--accent-color);
+}
 
 /* стилізація зв'язку */
 .connection {
@@ -94,7 +96,6 @@ body {
 
 .connection a:hover {
     color: var(--accent-color);
-    cursor: pointer;
 }
 
 
@@ -110,11 +111,22 @@ body {
     text-decoration: none;
     font-style: normal;
     color: var(--secondary-color);
-    background-color: #2F303A;
+}
+
+.footer {
+    background-color: var(--background);
 }
 
 .address a[href="https://cutt.ly/mX3golp"] {
     color: var(--black-fon-text-color);
+}
+
+.address a:hover {
+    color: var(--accent-color);
+}
+
+.address a:focus {
+    color: var(--accent-color);
 }
 
 
@@ -132,6 +144,10 @@ body {
     letter-spacing: 0.06em;
     color: var(--black-fon-text-color);
     background-color: #2F303A;
+}
+
+.hero {
+    background-color: var(--background);
 }
 
 .hero-button {
