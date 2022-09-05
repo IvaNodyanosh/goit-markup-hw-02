@@ -46,11 +46,11 @@ body {
 
 
 /* стилізація навігації */
-.navigation {
+header ul {
     list-style: none;
 }
 
-.navigation a {
+.navigation {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -60,28 +60,24 @@ body {
 }
 
 
-.navigation a:focus {
+.navigation:focus {
     color: var(--accent-color);
 }
 
-.navigation a:hover {
+.navigation:hover {
     color: var(--accent-color);
 }
 
-.navigation .navigation-portfolio {
+.navigation-studio {
     color: var(--accent-color);
 }
 
-.navigation .navigation-studio {
+.navigation-portfolio {
     color: var(--accent-color);
 }
 
 /* стилізація зв'язку */
 .connection {
-    list-style: none;
-}
-
-.connection a {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -90,11 +86,11 @@ body {
     text-decoration: none;
 }
 
-.connection a:focus {
+.connection:focus {
     color: var(--accent-color);
 }
 
-.connection a:hover {
+.connection:hover {
     color: var(--accent-color);
 }
 
@@ -103,11 +99,11 @@ body {
 
 
 /* СТИЛЫЗАЦІЯ FOOTER */
-.address {
+.footer ul {
     list-style: none;
 }
 
-.address a {
+.address {
     text-decoration: none;
     font-style: normal;
     color: var(--secondary-color);
@@ -117,15 +113,15 @@ body {
     background-color: var(--background);
 }
 
-.address a[href="https://cutt.ly/mX3golp"] {
+.address-offline {
     color: var(--white-text);
 }
 
-.address a:hover {
+.address:hover {
     color: var(--accent-color);
 }
 
-.address a:focus {
+.address:focus {
     color: var(--accent-color);
 }
 
@@ -151,13 +147,14 @@ body {
 }
 
 .hero-button {
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
-    display: flex;
     color: var(--white-text);
     background-color: #2196F3;
     cursor: pointer;
+
 }
 
 
@@ -165,17 +162,17 @@ body {
 
 
 /* стилізація секції наші переваги */
-.section-our-advantages {
+.advantages {
     list-style: none;
 }
 
-.section-our-advantages h3 {
+.advantages-title {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
 }
 
-.section-our-advantages p {
+.advantages-description {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -187,14 +184,14 @@ body {
 
 
 /* стилізація секції  */
-.our-work h2 {
+.work-title {
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
 }
 
-.our-work ul {
+.work ul {
     list-style: none;
 }
 
@@ -203,18 +200,18 @@ body {
 
 
 /* стидізація секції наша команда */
-.our-team ul {
+.team ul {
     list-style: none;
 }
 
-.our-team h2 {
+.team-title {
     font-size: 36px;
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
 }
 
-.our-team h3 {
+.team-employee {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
@@ -222,7 +219,7 @@ body {
     letter-spacing: 0.03em;
 }
 
-.our-team p {
+.team-profession {
     font-size: 16px;
     line-height: 1.2;
     text-align: center;
@@ -244,7 +241,8 @@ body {
     list-style: none;
 }
 
-.filters button {
+.filters-button {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
@@ -252,13 +250,13 @@ body {
     letter-spacing: 0.03em;
 }
 
-.filters button:hover {
+.filters-button:hover {
     color: var(--white-text);
     background-color: #2196F3;
     cursor: pointer;
 }
 
-.filters button:focus {
+.filters-button:focus {
     color: var(--white-text);
     background-color: #2196F3;
     cursor: pointer;
@@ -268,17 +266,17 @@ body {
 
 
 /* стилізація секції котенту */
-.our-content ul {
+.content {
     list-style: none;
 }
 
-.our-content h2 {
+.content-title {
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
 }
 
-.our-content p {
+.content-description {
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
