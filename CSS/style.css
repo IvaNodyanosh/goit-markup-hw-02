@@ -1,16 +1,16 @@
 :root {
     --accent-color: #2196F3;
-    --main-color: #212121;
-    --black-fon-text-color: #FFFFFF;
-    --text-p-color: #757575;
+    --primary-color: #212121;
+    --white-text: #FFFFFF;
+    --tetriary-color: #757575;
     --secondary-color: rgba(255, 255, 255, 0.6);
     --background: #2F303A;
 }
 
 body {
-    background-color: var(--black-fon-text-color);
+    background-color: white;
     font-family: Roboto, sans-serif;
-    color: var(--main-color);
+    color: var(--primary-color);
 }
 
 
@@ -38,7 +38,7 @@ body {
 }
 
 .logo-footer {
-    color: var(--black-fon-text-color);
+    color: var(--white-text);
 }
 
 
@@ -86,7 +86,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--text-p-color);
+    color: var(--tetriary-color);
     text-decoration: none;
 }
 
@@ -118,7 +118,7 @@ body {
 }
 
 .address a[href="https://cutt.ly/mX3golp"] {
-    color: var(--black-fon-text-color);
+    color: var(--white-text);
 }
 
 .address a:hover {
@@ -142,7 +142,7 @@ body {
     line-height: 1.4;
     text-align: center;
     letter-spacing: 0.06em;
-    color: var(--black-fon-text-color);
+    color: var(--white-text);
     background-color: #2F303A;
 }
 
@@ -155,7 +155,7 @@ body {
     font-size: 16px;
     line-height: 1.9;
     display: flex;
-    color: var(--black-fon-text-color);
+    color: var(--white-text);
     background-color: #2196F3;
     cursor: pointer;
 }
@@ -179,7 +179,7 @@ body {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color: var(--text-p-color);
+    color: var(--tetriary-color);
 }
 
 
@@ -227,7 +227,7 @@ body {
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--text-p-color);
+    color: var(--tetriary-color);
 }
 
 
@@ -253,13 +253,13 @@ body {
 }
 
 .filters button:hover {
-    color: var(--black-fon-text-color);
+    color: var(--white-text);
     background-color: #2196F3;
     cursor: pointer;
 }
 
 .filters button:focus {
-    color: var(--black-fon-text-color);
+    color: var(--white-text);
     background-color: #2196F3;
     cursor: pointer;
 }
@@ -282,5 +282,5 @@ body {
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
-    color: var(--text-p-color);
+    color: var(--tetriary-color);
 }
