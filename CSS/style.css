@@ -25,7 +25,7 @@ body {
 /* стилізація логотипа */
 .logo {
     color: currentColor;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 26px;
     font-weight: 700;
     line-height: 1.2;
